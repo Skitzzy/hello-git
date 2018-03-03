@@ -1,2 +1,2 @@
-# hello-git
-(Fun) Stuff
+# Python projects
+Python projects
