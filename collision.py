@@ -12,7 +12,7 @@ def program():
 
         momentum = float(u1*m1) + float(u2*m2)
 
-        v1 = (float(momentum) - float(float(e) * (float(u1) - float(u2)))) / float(m1)
+        v1 = (float(momentum) - float(float(e) * float(m2) * (float(u1) - float(u2)))) / (float(m1) * float(m2)) 
         v2 = (float(momentum) - float(v1) * float(m1)) / float(m2)
 
         print("The total momentum of the system is: ", momentum)
