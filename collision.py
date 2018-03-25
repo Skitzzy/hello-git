@@ -29,7 +29,7 @@ while x < 15:
     if (x % 2) == 0 & x != 1 & x != 0:
         balls[x].name = str(x - 1)
         balls[x].type = "solid"
-    else:
+    if (x % 2 == 1) & x != 1 & x != 0:
         balls[x].name = str(x - 2)
         balls[x].type = "striped"
     x += 1
